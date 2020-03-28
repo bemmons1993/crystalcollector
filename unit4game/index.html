@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  
+  <style>
+    body {
+      background-image: url('https://i.ytimg.com/vi/yzc3zNJ1Hx4/maxresdefault.jpg');
+    }
+    </style> 
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Crystal Collector</title>
+</head>
+
+
+  <div class="head">
+    <h1>CrystalsCollector!</h1>
+</div>
+
+<div class="instructions">
+    <p>You will be given a random number at the start of the game.</p>
+    <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+    <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+    <p>The value of each crystal is hidden from you until you click on it.</p>
+    <p>Each time when the game starts, the game will change the value of each crystal. </p>
+</div>
+
+<div class="scoreSection">
+    <div id="targetNumber">
+    </div>
+    <div id="scoreSheet">
+        <p id="wins">Wins: <span id="winCounter"></span></p>
+        <p id="losses">Losses: <span id="lossCounter"></span></p>
+    </div>
+    <div id="extra"></div>
+  </div>
+
+  <div class="back">
+    <img class="cry-img" id="pink" src="https://www.crystalvaults.com/images/crystal%20encyclopedia/quartz/pink_quartz_header.gif" alt="pink crystal">
+  </div>
+  <div class="back">
+    <img class="cry-img" id="red" src="https://static.turbosquid.com/Preview/001208/294/QN/red-crystals-3D-model_Z.jpg" alt="red crystal">
+  </div>
+  <div class="back">
+    <img class="cry-img" id="grey" src="https://cdn.shopify.com/s/files/1/1205/8042/products/363-1.jpg?v=1497470667" alt="grey crystal">
+  </div>
+  <div class="back">
+    <img class="cry-img" id="blue" src="https://images-na.ssl-images-amazon.com/images/I/61jmnz0wY4L._AC_SX522_.jpg" alt="blue crystal">
+  </div>
+
+  <div id="totalScore">
+    <h2>Your total score is:</h2>
+</div>
+
+<div id="curScore">
+
+</div>
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
