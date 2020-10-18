@@ -1,10 +1,12 @@
-crystal-collector
+# crystal-collector
+
 This is the fourth assignment for the UW Madison Exstension Coding Bootcamp.
 
 In this assignment, we were required to create a fun and interactive game for web browsers. This time, the app must dynamically update the HTML with the jQuery library.
 
-Getting Started
-Crystal Collector
+## Getting Started
+
+**Crystal Collector**
 
 Instructions:
 
@@ -13,9 +15,10 @@ You will be given a random number at the start of the game. There are four cryst
 Click on the following link to preview the completed assignment.
 https://bemmons1993.github.io/crystalcollector/
 
-Built With
-HTML5
-CSS3
-Twitter-Bootstrap - Framework
-JavaScript
-jQuery - JavaScript Library
+## Built With
+
+* HTML5
+* CSS3
+* Twitter-Bootstrap - Framework
+* JavaScript
+* jQuery - JavaScript Library
