@@ -22,3 +22,9 @@ https://bemmons1993.github.io/crystalcollector/
 * Twitter-Bootstrap - Framework
 * JavaScript
 * jQuery - JavaScript Library
+
+---
+
+Screenshot of the App: [https://ibb.co/cg5bKqZ]
+
+---
